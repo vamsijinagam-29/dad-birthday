@@ -1,0 +1,492 @@
+/* ==========================================================
+                    LARGE TABLETS
+========================================================== */
+
+@media (max-width:1200px){
+
+    .container{
+
+        max-width:1000px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:4.2rem;
+
+    }
+
+    .birthday-card h1{
+
+        font-size:4rem;
+
+    }
+
+}
+
+/* ==========================================================
+                    TABLETS
+========================================================== */
+
+@media (max-width:992px){
+
+    .section{
+
+        padding:80px 6%;
+
+    }
+
+    .hero-content h1{
+
+        font-size:3.6rem;
+
+    }
+
+    .hero-content h3{
+
+        font-size:1.3rem;
+
+    }
+
+    .hero-content p{
+
+        font-size:1.1rem;
+
+    }
+
+    .section-heading h2{
+
+        font-size:2.5rem;
+
+    }
+
+    .timeline{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .gallery-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .letter-card{
+
+        padding:45px;
+
+    }
+
+    .promise-card{
+
+        padding:45px;
+
+    }
+
+    .birthday-card{
+
+        padding:50px;
+
+    }
+
+    .ending-card{
+
+        padding:50px;
+
+    }
+
+}
+
+/* ==========================================================
+                    MOBILE
+========================================================== */
+
+@media (max-width:768px){
+
+    .section{
+
+        padding:70px 20px;
+
+    }
+
+    .hero-content h4{
+
+        font-size:.9rem;
+
+        letter-spacing:3px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:2.6rem;
+
+    }
+
+    .hero-content h3{
+
+        font-size:1.1rem;
+
+    }
+
+    .hero-content p{
+
+        font-size:1rem;
+
+        line-height:1.8;
+
+    }
+
+    .loader-content h1{
+
+        font-size:2.5rem;
+
+    }
+
+    .loader-content h3{
+
+        font-size:1rem;
+
+    }
+
+    .loader-content p{
+
+        font-size:1rem;
+
+    }
+
+    .section-heading h2{
+
+        font-size:2.2rem;
+
+    }
+
+    .section-heading p{
+
+        font-size:1rem;
+
+    }
+
+    .gallery-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .photo-card img{
+
+        height:420px;
+
+    }
+
+    .timeline-card{
+
+        padding:28px;
+
+    }
+
+    .letter-card{
+
+        padding:35px;
+
+    }
+
+    .letter-card h2{
+
+        font-size:2.2rem;
+
+    }
+
+    .letter-text p{
+
+        font-size:1rem;
+
+        text-align:left;
+
+    }
+
+    .promise-card{
+
+        padding:35px;
+
+    }
+
+    .promise-card h2{
+
+        font-size:2.2rem;
+
+    }
+
+    .promise-card p{
+
+        font-size:1rem;
+
+    }
+
+}
+/* ==========================================================
+                    SMALL MOBILES
+========================================================== */
+
+@media (max-width:576px){
+
+    .section{
+
+        padding:60px 18px;
+
+    }
+
+    .loader-content{
+
+        padding:0 10px;
+
+    }
+
+    .loader-content h1{
+
+        font-size:2rem;
+
+        line-height:1.3;
+
+    }
+
+    .loader-content p{
+
+        font-size:.95rem;
+
+        line-height:1.8;
+
+    }
+
+    #startJourney{
+
+        width:100%;
+
+        max-width:300px;
+
+        padding:16px;
+
+        font-size:1rem;
+
+    }
+
+    .hero-content{
+
+        padding:0 10px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:2.2rem;
+
+        line-height:1.2;
+
+    }
+
+    .hero-content h3{
+
+        font-size:1rem;
+
+    }
+
+    .hero-content p{
+
+        font-size:.95rem;
+
+    }
+
+    .section-heading h2{
+
+        font-size:2rem;
+
+    }
+
+    .timeline-card{
+
+        padding:25px;
+
+    }
+
+    .timeline-card h3{
+
+        font-size:1.4rem;
+
+    }
+
+    .timeline-card p{
+
+        font-size:.95rem;
+
+    }
+
+    .photo-card img{
+
+        height:350px;
+
+    }
+
+    .letter-card{
+
+        padding:28px;
+
+    }
+
+    .promise-card{
+
+        padding:28px;
+
+    }
+
+    .birthday-card{
+
+        padding:35px 25px;
+
+    }
+
+    .birthday-card h1{
+
+        font-size:2.4rem;
+
+        line-height:1.3;
+
+    }
+
+    .birthday-card h2{
+
+        font-size:1.5rem;
+
+    }
+
+    .birthday-card p{
+
+        font-size:.95rem;
+
+    }
+
+    #celebrateBtn{
+
+        width:100%;
+
+        padding:16px;
+
+    }
+
+    .ending-card{
+
+        padding:35px 25px;
+
+    }
+
+    .ending-card h1{
+
+        font-size:2.5rem;
+
+    }
+
+    .ending-card h2{
+
+        font-size:1.4rem;
+
+    }
+
+    .ending-card p{
+
+        font-size:.95rem;
+
+    }
+
+}
+
+/* ==========================================================
+                EXTRA SMALL DEVICES
+========================================================== */
+
+@media (max-width:380px){
+
+    .hero-content h1{
+
+        font-size:1.9rem;
+
+    }
+
+    .loader-content h1{
+
+        font-size:1.8rem;
+
+    }
+
+    .birthday-card h1{
+
+        font-size:2rem;
+
+    }
+
+    .ending-card h1{
+
+        font-size:2rem;
+
+    }
+
+}
+
+/* ==========================================================
+                LANDSCAPE PHONES
+========================================================== */
+
+@media (max-height:500px){
+
+    .section{
+
+        min-height:auto;
+
+        padding:80px 20px;
+
+    }
+
+    #loader{
+
+        padding:30px;
+
+    }
+
+}
+
+/* ==========================================================
+                IMAGE OPTIMIZATION
+========================================================== */
+
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+/* ==========================================================
+                BUTTON OPTIMIZATION
+========================================================== */
+
+button{
+
+    min-height:52px;
+
+    touch-action:manipulation;
+
+}
+
+/* ==========================================================
+                PREVENT HORIZONTAL SCROLL
+========================================================== */
+
+html,
+
+body{
+
+    max-width:100%;
+
+    overflow-x:hidden;
+
+}
